@@ -6,7 +6,7 @@ const Padre = () => {
   return (
     <div className="alert alert-primary">
       <h4>Padre</h4>
-      <Hijo text="Hola mundo" />
+      <Hijo text={text} />
     </div>
   );
 };
